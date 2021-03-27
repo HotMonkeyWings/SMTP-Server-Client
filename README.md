@@ -16,8 +16,8 @@ $ cd SMTP-Server-Client/
 
 Then, compile the program using `gcc`
 ```
-$ gcc server.c -o Server -lpthread
-$ gcc client.c -o Client
+$ gcc smtpmail.c -o Server -lpthread
+$ gcc mailclient.c -o Client
 ```
 
 Enter the following command to run the server, replacing '3000' with any desired Port number outside the range of 0-1024. If not given, '8080' will be taken as the default Port Number.
