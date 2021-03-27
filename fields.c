@@ -29,6 +29,7 @@ void get_line(char *data, int *index, char *out){
     int i = 0;
 
     while (data[*index] != '\n' && *index < n){
+
         out[i] = data[*index];
         *index += 1;
         i++;
