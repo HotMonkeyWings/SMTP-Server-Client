@@ -1,6 +1,6 @@
 # SMPTP Server
 SMTP server and client application implemented in C.
-
+![Screenshot](/Screenshot.png)
 ## Prerequisites
 To run the application, you will need to compile the source code. The packages that are required are
 - `gcc` - The GNU compiler collection
@@ -23,12 +23,12 @@ $ gcc client.c -o Client
 Enter the following command to run the server, replacing '3000' with any desired Port number outside the range of 0-1024. If not given, '8080' will be taken as the default Port Number.
 
 ```
-$ ./Server 3000
+$ ./Server 4200
 ```
 
-Next, run the client and connect to the same PORT
+Next, run the client and connect to the same Port number. 
 ```
-$ ./Client 3000
+$ ./Client 4200
 ```
 
 A login screen would appear on the client application. On entering authenticating with a correct credentials, the application shows a menu with the options available.
