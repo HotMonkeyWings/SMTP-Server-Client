@@ -88,7 +88,6 @@ void *handle_client(void *arg){
     Client *client = (Client *)arg;
 
     printf("[+] New client connected!\n");
-    printf("Sockfd:%d\n", client->sockfd);
 
     char *username, *password;
     if (recv_packet(client->sockfd, &username) == -1){
